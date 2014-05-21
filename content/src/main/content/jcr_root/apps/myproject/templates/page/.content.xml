@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+    jcr:description="myproject page template"
+    jcr:primaryType="cq:Template"
+    jcr:title="My Project Page Template"
+    allowedPaths="/content/myproject(/.*)?"
+    ranking="{Long}100">
+    <jcr:content
+        cq:designPath="/etc/designs/myproject"
+        jcr:primaryType="cq:PageContent"
+        sling:resourceType="myproject/components/pages/page"/>
+</jcr:root>
